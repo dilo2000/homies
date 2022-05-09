@@ -1,0 +1,56 @@
+body {
+    font-family: 'Koulen', cursive;
+}
+
+#title {
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    /* Safari and Chrome*/
+    transform: translate(-50%, -50%);
+}
+
+.secondary {
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Koulen', cursive;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#flex-container-submission {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.flex-item {
+    text-align: center;
+    width: 100px;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
