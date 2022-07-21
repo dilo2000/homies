@@ -1,0 +1,47 @@
+body,
+html {
+    /* font-family: 'Koulen', cursive; */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 244, 235);
+
+}
+
+.parent {
+    display: flex;
+    height: 100%;
+    /* bigger than your svg */
+    width: 100%;
+    /* bigger than your svg */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.svg-text {
+    font-size: 20px;
+}
+
+.svg-text:hover {
+    font-size: 20px;
+    fill: crimson
+}
+
+#circle svg:hover {
+    /* fill: cornflowerblue; */
+    /* animation: rotate; */
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
